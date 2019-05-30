@@ -48,6 +48,7 @@ p {
 }
 
 footer {
+  display: none;
   position: fixed;
   bottom: 0;
   height: 50px;
