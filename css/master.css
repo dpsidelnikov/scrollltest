@@ -40,18 +40,16 @@ section:nth-child(4) {
 
 p {
   font-family: Sans-Serif;
-  font-size: calc(1rem + 3vw);
+  font-size: 4vh;
+  top: 50%;
   color: white;
   position: relative;
-  top: 50%;
   text-align: center;
 }
 
 footer {
-  display: none;
   position: fixed;
-  bottom: 0;
-  height: 50px;
+  bottom: 0px;
   width: 100vw;
   background-color: #00000077;
 }
