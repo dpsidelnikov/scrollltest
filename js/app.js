@@ -1,14 +1,3 @@
-$(function() {
-  var controller = new ScrollMagic.Controller();
+AOS.init({
+  duration: 1200
 });
-
-var blockTween = new TweenMax.to('#block', 1.5, {
-  backgroundColor: 'red'
-});
-
-var containerScene = new ScrollMagic.Scene({
-    triggerElement: '#container'
-  })
-  .setTween(blockTween)
-  .addIndicators()
-  .addTo(controller);

@@ -6,6 +6,7 @@
   <title>Scroll Test</title>
   <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="js/app.js" async></script>
 </head>
 
@@ -22,9 +23,13 @@
   <section>
     <p>Section 4</p>
   </section>
-  <footer>
+  <footer data-aos="fade-up">
     <p>Contact</p>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
